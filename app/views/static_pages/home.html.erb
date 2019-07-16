@@ -1,2 +1,7 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<% provide(:title, "Home") %>
+<h1>Sample App <%= yield(:title) %></h1>
+<p>
+    This is the home page for the 
+    <a href="ttps://www.railstutorial.org/">Ruby on rails Tutorials</a>
+    sample application.
+</p>
