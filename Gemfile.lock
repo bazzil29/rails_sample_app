@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    a (0.2.8)
     actioncable (5.2.3)
       actionpack (= 5.2.3)
       nio4r (~> 2.0)
@@ -48,9 +49,14 @@ GEM
     archive-zip (0.12.0)
       io-like (~> 0.3.0)
     arel (9.0.0)
+    autoprefixer-rails (9.6.1)
+      execjs
     bindex (0.8.1)
     bootsnap (1.4.4)
       msgpack (~> 1.0)
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     builder (3.2.3)
     byebug (11.0.1)
     capybara (3.26.0)
@@ -170,7 +176,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    regexp_parser (1.5.1)
+    regexp_parser (1.6.0)
     ruby-progressbar (1.10.1)
     ruby_dep (1.5.0)
     rubyzip (1.2.3)
@@ -226,7 +232,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  a (~> 0.2.8)
   bootsnap (>= 1.1.0)
+  bootstrap-sass (= 3.3.7)
   byebug
   capybara (>= 2.15)
   chromedriver-helper
