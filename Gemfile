@@ -80,3 +80,5 @@ gem 'bootstrap-sass', '3.3.7'
 
 
 
+
+gem "bcrypt", "~> 3.1"
