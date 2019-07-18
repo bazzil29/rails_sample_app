@@ -24,7 +24,7 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
       post users_path , params: {
         user: {
           name: "Ngo Minh Phuong 2",
-          email: 'user@invalid.com',
+          email: 'user@valid.com',
           password: 'xxxxxxx',
           password_confirmation: "xxxxxxx"
         }
@@ -32,6 +32,7 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     end
     follow_redirect!
     assert_template 'users/show'
+    assert is_logged_in?
     # assert_select 'div#<CSS id for error explanation>'
     # assert_select 'div.<CSS class for field with error>'
   end
