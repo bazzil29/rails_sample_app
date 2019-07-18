@@ -1,0 +1,8 @@
+{
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "markdown": ["html", "erb"]
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "editor.formatOnSave": true
+}
