@@ -76,7 +76,7 @@ end
 
 
 
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '3.4.1'
 
 
 
