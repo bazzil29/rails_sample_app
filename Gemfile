@@ -83,6 +83,6 @@ gem 'bootstrap-sass', '3.3.7'
 
 gem "bcrypt", "~> 3.1"
 
-gem "jquery", "~> 0.0.1"
+# gem "jquery", "~> 0.0.1"
 
 gem "jquery-rails", "~> 4.3"
