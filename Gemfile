@@ -85,3 +85,9 @@ gem "bcrypt", "~> 3.1"
 
 
 gem "jquery-rails", "~> 4.3"
+
+gem "faker", "~> 1.9"
+
+gem "will_paginate", "~> 3.1"
+
+gem "bootstrap-will_paginate", "~> 1.0"
