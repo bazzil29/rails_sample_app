@@ -74,6 +74,10 @@ group :test do
   gem 'guard-minitest',           '2.4.4'
 end
 
+group :production do
+  gem 'pg',  '0.20.0'
+  gem 'fog', '1.42'
+end
 
 
 gem 'bootstrap-sass', '3.4.1'
@@ -91,3 +95,9 @@ gem "faker", "~> 1.9"
 gem "will_paginate", "~> 3.1"
 
 gem "bootstrap-will_paginate", "~> 1.0"
+
+gem "carrierwave", "~> 1.3"
+
+gem 'mini_magick',             '4.7.0'
+
+gem "image_magick", "~> 0.1.9"
