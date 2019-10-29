@@ -98,6 +98,6 @@ gem "bootstrap-will_paginate", "~> 1.0"
 
 gem "carrierwave", "~> 1.3"
 
-gem 'mini_magick',             '4.7.0'
+gem 'mini_magick',             '4.9.4'
 
 gem "image_magick", "~> 0.1.9"
